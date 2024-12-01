@@ -6,7 +6,7 @@ import Hls from 'hls.js';
 const LiveVideo = () => {
   const videoRef = useRef(null);
 
-  const videoSrc = 'https://pull.niur.live/live/stream-499765_lhd.m3u8?txSecret=3394fb344161eb66e89aa61ed7bb28e7&txTime=674cbf6e';
+  const videoSrc = 'https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1733065830-0-0-afc8cf91a54ed6020ad511537e47a88d';
 
   useEffect(() => {
     const video = videoRef.current;
